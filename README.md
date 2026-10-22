@@ -1,4 +1,5 @@
-<img width="3412" height="616" alt="logo" src="https://github.com/user-attachments/assets/1b43687f-26dd-42d1-8fbc-39b269255deb" />
+<img width="5118" height="924" alt="banner" src="https://github.com/user-attachments/assets/907b257b-3d13-4d71-a8eb-0f81433afeb0" />
+
 
 # clackwork
 The alarm clock with a built in macropad mode!
