@@ -530,7 +530,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "../CAD/PCB.step",
+      "step": "../CAD/PCB_no_silkscreen.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
