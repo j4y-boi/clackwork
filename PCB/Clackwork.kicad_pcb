@@ -179,12 +179,6 @@
 		(path "/6bdcda34-8517-4708-8538-e84ad2939dac")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -456,12 +450,6 @@
 		(path "/b05d13ee-5e53-4675-b39a-bc4a591253f3")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -561,14 +549,6 @@
 		(path "/b35e5bbc-43ed-4e22-a7c7-9b0e1842b842")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "15" "16" "17" "21" "18" "22" "19"
-					"20" "14" "13" "12" "11" "10" "9" "8"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1209,12 +1189,6 @@
 		(path "/fd8008f5-78e3-492f-8c41-518bac082c4c")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1454,6 +1428,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "C:/Users/iming.GAMING_STATION/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/keycap.step"
+			(offset
+				(xyz -2.5 -5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_3D"
 		(layer "F.Cu")
@@ -1512,12 +1497,6 @@
 		(path "/423a2662-052f-4234-9375-af574353f4ec")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1757,6 +1736,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "C:/Users/iming.GAMING_STATION/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/keycap.step"
+			(offset
+				(xyz -2.5 -5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -1850,12 +1840,6 @@
 		(path "/f2fcf15e-d11a-4127-a628-0e9c38af14cc")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2152,12 +2136,6 @@
 		(path "/ac31e8a9-4c54-4b52-b4aa-baf75fcae439")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2454,12 +2432,6 @@
 		(path "/1a14097c-070c-4d22-8469-545a2fd6e4d2")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2892,12 +2864,6 @@
 		(path "/117bb260-c73f-4cd6-9d53-73e0ecc9658a")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3137,6 +3103,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "C:/Users/iming.GAMING_STATION/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/keycap.step"
+			(offset
+				(xyz -2.5 -5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -3205,12 +3182,6 @@
 		(path "/39d1f777-069b-4788-9785-bcca8f2a9456")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -3313,12 +3284,6 @@
 		(path "/39469fbf-7514-4202-874a-488d3196c7c7")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -3499,12 +3464,6 @@
 		(path "/a1b67b37-8cf4-4905-971d-040b437125a3")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3826,12 +3785,6 @@
 		(path "/8d73138d-1dd6-415c-9d66-4a3b84211dbf")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4071,6 +4024,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "C:/Users/iming.GAMING_STATION/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/keycap.step"
+			(offset
+				(xyz -2.5 -5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -4164,12 +4128,6 @@
 		(path "/59c984cc-018d-4878-874a-3b51bd1ed908")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4441,12 +4399,6 @@
 		(path "/56c04e50-efb6-4c6f-b649-8474683cadc1")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -4548,12 +4500,6 @@
 		(path "/4422b04f-56c1-4c61-8054-046c98d9ffa2")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4791,6 +4737,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "C:/Users/iming.GAMING_STATION/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/keycap.step"
+			(offset
+				(xyz -2.5 -5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5962,12 +5919,6 @@
 		(path "/da78034d-fb7e-4672-8bcf-678d833f0696")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6229,12 +6180,6 @@
 		(path "/a0e1525d-8752-48e5-9b49-5e7ba6956eab")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6474,6 +6419,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "C:/Users/iming.GAMING_STATION/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/keycap.step"
+			(offset
+				(xyz -2.5 -5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB_3D"
 		(layer "F.Cu")
@@ -6532,12 +6488,6 @@
 		(path "/411fda7e-7f3b-4ebb-a3d4-82db4fb91a85")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6777,6 +6727,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "C:/Users/iming.GAMING_STATION/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/keycap.step"
+			(offset
+				(xyz -2.5 -5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -6845,12 +6806,6 @@
 		(path "/805af1b3-a3f0-4f39-835b-d3c2d48d6955")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6952,12 +6907,6 @@
 		(path "/aacf02a9-5111-4bcc-a927-838dbb06b3aa")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7197,6 +7146,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "C:/Users/iming.GAMING_STATION/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/keycap.step"
+			(offset
+				(xyz -2.5 -5 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -7290,12 +7250,6 @@
 		(path "/7bc6d71b-b8db-46f0-98e0-2e31ff3543e9")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7592,12 +7546,6 @@
 		(path "/e1ce98cd-5148-4b02-9795-43079fdfeb7c")
 		(sheetname "/")
 		(sheetfile "Clackwork.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

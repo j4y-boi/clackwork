@@ -530,7 +530,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "../CAD/PCB_no_silkscreen.step",
+      "step": "../CAD/PCB_with_unpressed_keycaps.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
