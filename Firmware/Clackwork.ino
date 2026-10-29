@@ -5,6 +5,7 @@
 #include <time.h>
 #include <HijelHID_BLEKeyboard.h>
 #include <Keypad.h>
+#include <Preferences.h>
 
 #include "FreeMono12pt7b.h" //fonts :))))
 #include "Picopixel.h" // small font
@@ -80,6 +81,8 @@ enum ScreenMode { // this makes it possible to switch betweens creens with only 
 
 ScreenMode currentScreen = CLOCK_MODE;
 
+Preferences prefs;
+
 int8_t lastBluetooth = -1; // -1 so we know that to update on draw
 bool alarmOn = true;
 
@@ -88,7 +91,7 @@ uint8_t alarmHour = 7;
 uint8_t alarmMinute = 30;
 bool ringing = false;
 bool alarmAlreadyFired = false;
-unsigned long lastAlarmCheck = 0; // uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh its an unsigned long so it can store 4bil ms otherwise it will probably blow itself up
+unsigned long lastAlarmCheck = 0; // uhhhh its an unsigned long so it can store 4bil ms otherwise it will probably blow itself up
 unsigned long ringStart = 0;
 
 static char lastTime[8] = "";
@@ -364,6 +367,11 @@ void setup() {
   Serial.begin(115200);
   pinMode(BUZZER, OUTPUT);
 
+  prefs.begin("clackwork", false);
+  alarmHour = prefs.getUChar("hour",7);
+  alarmMinute = prefs.getUChar("minute",30);
+  alarmOn = prefs.getUChar("on",true);
+
   gfx->begin();
   drawCurrentScreen();
 
@@ -437,6 +445,7 @@ void loop() {
           break;
         case '7':
           alarmOn = !alarmOn;
+          prefs.putUChar("on", alarmOn);
           drawCurrentScreen(); // refreshes entire screen (and with it the label)
           break;
         case '8':
@@ -456,9 +465,9 @@ void loop() {
           break;
         case '7': // down key
           if (editingHour) {
-            alarmHour = (alarmHour - 1) % 24;
+            alarmHour = (alarmHour + 23) % 24; //just noticed this lmao, so if i do plus 24-1 it should just wrap around hopefully
           } else {
-            alarmMinute = (alarmMinute - 1) % 60;
+            alarmMinute = (alarmMinute + 59) % 60;
           }
           drawCurrentScreen();
           break;
@@ -467,6 +476,8 @@ void loop() {
           drawCurrentScreen();
           break;
         case '8':
+          prefs.putUChar("minute",alarmMinute);
+          prefs.putUChar("hour",alarmHour);
           changeScreen(CLOCK_MODE);
           editingHour = true;
           break;
