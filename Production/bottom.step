@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'Case Bottom.step',
-/* time_stamp */ '2026-10-26T00:18:22+01:00',
+/* name */ 'bottom.step',
+/* time_stamp */ '2026-10-29T23:57:43+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.2',
